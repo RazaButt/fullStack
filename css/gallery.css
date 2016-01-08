@@ -1,0 +1,42 @@
+/*<h1>My Gallery</h1>
+
+       <div class="gallery-wrap">
+           <div class="slide-wrap">
+               <div class="slide current">
+                   <img src="img/space1.jpg">
+               </div>
+               <div class="slide">
+                    <img src="img/space2.jpg">  
+               </div>
+               <div class="slide">
+                   <img src="img/space3.jpg">
+               </div>
+           </div>
+       </div>
+*/
+h1 {
+  text-align: center;
+}
+
+.gallery-wrap {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.gallery-wrap img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+}
+
+.current {
+  display: block;
+}
+
+.controls {
+  margin-top: 10px;
+  text-align: center;
+}

@@ -10,6 +10,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/gallery.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -18,15 +19,31 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <p>This is a second paragraph</p>
-        <button>Hello</button>
+       <h1>My Gallery</h1>
+
+       <div class="gallery-wrap">
+           <div class="slide-wrap">
+               <div class="slide current">
+                   <img src="img/space1.jpg">
+               </div>
+               <div class="slide">
+                    <img src="img/space2.jpg">  
+               </div>
+               <div class="slide">
+                   <img src="img/space3.jpg">
+               </div>
+           </div>
+           <div class="controls">
+               <span class="prev">Prev</span>
+               <span class="next">Next</span>
+           </div>
+       </div>
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/slider.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
